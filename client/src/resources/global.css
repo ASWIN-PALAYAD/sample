@@ -1,0 +1,115 @@
+.h-screen {
+    height: 100vh;
+}
+.w-400{
+    width: 400px;
+}
+
+/* inputs */
+input , select{
+    height: 40px;
+    border: 2px solid gray;
+    width: 100%;
+    padding-left: 20px;
+
+}
+
+.ant-form-item{
+    margin: 0 !important;
+}
+
+/* card */
+.card{
+    border: 2px solid gray;
+    box-shadow: 0 0 1px rgb(145, 142, 142);
+    border-radius: 0 !important;
+    margin-bottom: 5px;
+}
+
+/* text size */
+.text-2xl{
+    font-size: 25px;
+}
+.text-xl{
+    font-size: 25px !important;
+}
+.text-lg{
+    font-size: 20px !important;
+}
+.text-md{
+    font-size: 18px !important;
+}
+.secondary-text{
+    color: var(--secondary) !important ;
+}
+.primary-text{
+    color: var(--primary) !important;
+}
+.underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* button */
+.primary-btn{
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.secondary-btn{
+    background-color: var(--secondary) !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.outline{
+    border: 2px solid var(--primary) !important;
+    color: var(--primary) !important;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.disabled-btn{
+    background-color: gray !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: not-allowed;
+    border-radius: 10px;
+}
+
+/* anchor tag */
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
+i{
+    cursor: pointer;
+    font-size: 25px;
+}
+h1,p{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+/* loading */
+.spinner-parent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    z-index: 10000;
+}
